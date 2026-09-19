@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260918-05-13efa67","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/83d6dfdadcd4750a.telemetry_sdk.js" integrity="sha512-XS4Dvzp6vbagZS9vFErihvr8aO3S0tH78KWUefn06fmL4WYqryBtZj/IOLITYj7dFA4gPVvPg1W/JB1DK3uLNQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Editor Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;0,800;1,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #080909;
+      --charcoal: #121415;
+      --panel: #191c1d;
+      --line: rgba(255,255,255,.13);
+      --muted: #a7acab;
+      --lime: #d9ff4a;
+      --warm: #ff6b4a;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; width: 100%; color: #f4f6ef; background: var(--ink);
+      font-family: "DM Sans", sans-serif; overflow-x: hidden;
+    }
+    ::selection { background: var(--lime); color: #101111; }
+    .site-shell {
+      width: 100%; min-height: 100%;
+      background:
+        radial-gradient(circle at 85% 4%, rgba(217,255,74,.12), transparent 19rem),
+        radial-gradient(circle at 2% 47%, rgba(255,107,74,.08), transparent 24rem),
+        #080909;
+    }
+    .grid-noise {
+      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, black, transparent 80%);
+    }
+    .site-width { width: min(1180px, calc(100% - 2.5rem)); margin-inline: auto; }
+    .eyebrow {
+      color: var(--lime); font-size: .71rem; letter-spacing: .19em; text-transform: uppercase; font-weight: 700;
+    }
+    .display-face { font-family: "Playfair Display", serif; }
+    .nav-link { color: #c3c8c4; transition: color .2s ease; }
+    .nav-link:hover { color: var(--lime); }
+    .focus-ring:focus-visible { outline: 3px solid var(--lime); outline-offset: 4px; }
+    .hero-title { font-size: clamp(4rem, 11vw, 9.2rem); line-height: .83; letter-spacing: -.07em; }
+    .hero-frame {
+      position: relative; isolation: isolate; min-height: 410px; overflow: hidden;
+      background: linear-gradient(145deg, #252b2a 0%, #111415 45%, #090a0a 100%);
+      border: 1px solid var(--line);
+    }
+    .hero-frame::before {
+      content: ""; position: absolute; inset: 11% 10%; border: 1px solid rgba(217,255,74,.46);
+      transform: rotate(-7deg); z-index: -1;
+    }
+    .hero-frame::after {
+      content: ""; position: absolute; width: 13rem; height: 13rem; border-radius: 50%; right: -3rem; top: -3rem;
+      background: var(--warm); filter: blur(15px); opacity: .9; z-index: -1;
+    }
+    .scrub-line { height: 2px; background: rgba(255,255,255,.19); position: relative; }
+    .scrub-line::before { content:""; position:absolute; left:0; top:0; height:100%; width:42%; background:var(--lime); }
+    .primary-button {
+      display: inline-flex; align-items: center; justify-content: center; gap: .65rem; border: 0;
+      background: var(--lime); color: #111312; font-weight: 700; padding: .95rem 1.25rem; transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .primary-button:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(217,255,74,.2); }
+    .section-rule { border-top: 1px solid var(--line); }
+    .project-card { background: #121516; border: 1px solid var(--line); transition: transform .32s ease, border-color .32s ease, background .32s ease; }
+    .project-card:hover { transform: translateY(-7px); border-color: rgba(217,255,74,.7); background: #171b1b; }
+    .project-card:hover .play-cue { transform: scale(1.11); background: var(--lime); color: #101111; }
+    .thumb { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #252727; }
+    .thumb img { width:100%; height:100%; object-fit:cover; filter: saturate(.75) contrast(1.12) brightness(.77); transition: transform .55s ease, filter .55s ease; }
+    .project-card:hover .thumb img { transform: scale(1.055); filter: saturate(1) contrast(1.08) brightness(.9); }
+    .thumb::after { content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(5,6,6,.72), transparent 58%); pointer-events:none; }
+    .play-cue { position:absolute; z-index:1; left:1rem; bottom:1rem; display:grid; place-items:center; width:3rem; height:3rem; border-radius:50%; background:rgba(8,9,9,.82); color:#fff; border:1px solid rgba(255,255,255,.4); transition:transform .25s ease, background .25s ease, color .25s ease; }
+    .url-input { width:100%; min-width:0; background:#0c0e0e; color:#e9ece8; border:1px solid rgba(255,255,255,.17); padding:.75rem .8rem; font-size:.79rem; }
+    .url-input::placeholder { color:#7f8782; }
+    .url-input:focus { outline:2px solid var(--lime); outline-offset:2px; border-color:var(--lime); }
+    .watch-button { display:inline-flex; align-items:center; gap:.45rem; padding:.72rem 0; color:var(--lime); font-weight:700; font-size:.88rem; }
+    .tag { border:1px solid var(--line); color:#d8dcd7; background:rgba(255,255,255,.03); padding:.6rem .78rem; font-size:.85rem; }
+    .service { border-left:2px solid var(--lime); padding:.9rem 0 .9rem 1rem; color:#e8ebe5; }
+    #notice { position:fixed; z-index:50; left:50%; bottom:1.5rem; transform:translate(-50%, 150%); opacity:0; transition:all .28s ease; background:#eff5e9; color:#101310; padding:.8rem 1rem; box-shadow:0 12px 30px rgba(0,0,0,.35); font-size:.87rem; }
+    #notice.show { transform:translate(-50%, 0); opacity:1; }
+    .reveal { animation: rise .8s both; }
+    @keyframes rise { from { opacity:0; transform:translateY(22px); } to { opacity:1; transform:translateY(0); } }
+    @media (max-width: 760px) {
+      .site-width { width:min(100% - 1.5rem, 1180px); }
+      .hero-frame { min-height:300px; }
+      .mobile-menu { display:none; }
+      .mobile-menu.is-open { display:flex; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/8de366929c5f3b48.data_sdk.js" type="text/javascript" integrity="sha512-TyQ8k8cZj66xe/aENmn6RyZpdOFZXbAo5+KBG3PeFM+Q4qMTHU8xAqmq4ADClNfPrstgQYV6OzZHwLTnElzB2g=="></script>
+  <script src="/_sdk/0ddbbee1c66b1212.editing_sdk.js" type="text/javascript" integrity="sha512-HQn5LM1yruQSbY78ATUril6QeOJ9xj7KqO64ltLtb4vBwI5Qv3/tloFFOndBPZTNZoeV5xKzuth5y6FTi9crsg=="></script>
+  <script src="/_sdk/765e1fea0cec97ce.resizing_sdk.js" type="text/javascript" integrity="sha512-IRTJnqww0+HQ5V/LlWEQrlD5SrYHaVvaeVoNe8HYQXoaguzUGheSd9+n9s6WOgaTcEH0g37DuINHZ9aqfzWjlw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(8, 9, 9);">
+  <div class="site-shell">
+   <header class="sticky top-0 z-40 border-b border-white/10 bg-[#080909]/90 backdrop-blur-lg">
+    <div class="site-width flex min-h-[72px] items-center justify-between gap-5">
+     <a href="#top" class="focus-ring shrink-0 no-underline"> <span data-template-id="site-name" class="canva-text text-sm font-bold tracking-[.12em] text-[#f4f6ef]" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.12rem;">Mythri K</span> </a>
+     <nav class="hidden items-center gap-6 md:flex" aria-label="Primary navigation">
+      <a data-template-id="nav-about" class="canva-link nav-link focus-ring text-sm no-underline" href="#about" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">About</a> <a data-template-id="nav-work" class="canva-link nav-link focus-ring text-sm no-underline" href="#work" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Work</a> <a data-template-id="nav-skills" class="canva-link nav-link focus-ring text-sm no-underline" href="#skills" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Skills</a> <a data-template-id="nav-contact" class="canva-link nav-link focus-ring text-sm no-underline" href="#contact" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Contact</a>
+     </nav><button id="menu-toggle" type="button" class="focus-ring grid h-10 w-10 place-items-center border border-white/15 text-[#f4f6ef] md:hidden" aria-label="Open navigation menu" aria-expanded="false"> <i data-lucide="menu" width="19" height="19"></i> </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu site-width flex-col gap-4 border-t border-white/10 py-5 md:hidden" aria-label="Mobile navigation">
+     <a data-template-id="mobile-nav-about" class="canva-link nav-link focus-ring text-sm no-underline" href="#about" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">About</a> <a data-template-id="mobile-nav-work" class="canva-link nav-link focus-ring text-sm no-underline" href="#work" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Work</a> <a data-template-id="mobile-nav-skills" class="canva-link nav-link focus-ring text-sm no-underline" href="#skills" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Skills</a> <a data-template-id="mobile-nav-contact" class="canva-link nav-link focus-ring text-sm no-underline" href="#contact" style="color: rgb(195, 200, 196); font-weight: 500; font-style: normal; font-size: 16px;">Contact</a>
+    </nav>
+   </header>
+   <main id="top">
+    <section class="relative overflow-hidden py-14 md:py-24">
+     <div class="grid-noise pointer-events-none absolute inset-0"></div>
+     <div class="site-width relative grid items-end gap-10 lg:grid-cols-[1.08fr_.92fr]">
+      <div class="reveal">
+       <p data-template-id="hero-kicker" class="canva-text eyebrow mb-7" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">Freelance editor • Available for projects</p>
+       <h1 data-template-id="hero-title" class="canva-text hero-title display-face max-w-[790px] text-[#f4f6ef]" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 32px; letter-spacing: -0.07rem; line-height: 0.83;">VIDEO EDITOR</h1>
+       <p data-template-id="hero-tagline" class="canva-text mt-8 max-w-md text-lg leading-relaxed text-[#c2c8c2]" style="color: rgb(194, 200, 194); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.5;">Turning Ideas Into Engaging Visual Stories</p><a data-template-id="hero-cta" class="canva-button primary-button focus-ring mt-9 no-underline" href="#work" style="background: rgb(217, 255, 74); color: rgb(17, 19, 18);"> <span data-template-id="hero-cta-label" class="canva-text" style="color: rgb(17, 19, 18); font-weight: 700; font-style: normal; font-size: 16px;">View My Work</span><i data-lucide="arrow-down-right" width="18" height="18"></i> </a>
+      </div>
+      <div class="hero-frame reveal p-5 md:p-7" style="animation-delay:.16s">
+       <div class="flex items-center justify-between text-[10px] font-bold tracking-[.18em] text-[#d9ff4a]">
+        <span>PLAYBACK / 04:12</span><span>4K • 24 FPS</span>
+       </div>
+       <div class="absolute inset-x-[11%] top-[25%]">
+        <p class="display-face text-5xl italic leading-none text-white md:text-7xl">Frame<br>
+          the feeling.</p>
+        <div class="mt-6 flex items-center gap-3 text-sm text-[#c6cbc5]"><span class="h-2 w-2 rounded-full bg-[#d9ff4a]"></span>IN THE CUT
+        </div>
+       </div>
+       <div class="absolute bottom-7 left-7 right-7">
+        <div class="scrub-line"></div>
+        <div class="mt-3 flex justify-between text-[10px] tracking-[.12em] text-[#b0b6b0]"><span>00:00</span><span>01:44</span><span>04:12</span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="about" class="section-rule scroll-mt-24 py-14 md:py-20">
+     <div class="site-width grid gap-7 md:grid-cols-[.36fr_.64fr]">
+      <div>
+       <p data-template-id="about-label" class="canva-text eyebrow" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">About</p>
+      </div>
+      <div>
+       <p data-template-id="about-copy" class="canva-text max-w-3xl text-xl leading-relaxed text-[#dde1dc] md:text-2xl" style="color: rgb(221, 225, 220); font-weight: 400; font-style: normal; font-size: 22px; line-height: 1.5;">Creative and detail-oriented video editor passionate about transforming raw footage into engaging visual stories. I focus on clean editing, smooth transitions, storytelling, sound design and visually appealing content for social media and digital platforms.</p>
+      </div>
+     </div>
+    </section>
+    <section id="work" class="section-rule scroll-mt-24 py-14 md:py-20">
+     <div class="site-width">
+      <div class="mb-9 flex flex-wrap items-end justify-between gap-4">
+       <div>
+        <p data-template-id="work-label" class="canva-text eyebrow mb-3" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">Selected work</p>
+        <h2 data-template-id="work-title" class="canva-text display-face text-5xl leading-none text-[#f4f6ef] md:text-6xl" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 24px;">MY WORK</h2>
+       </div>
+       <p data-template-id="work-side-note" class="canva-text max-w-[260px] text-sm leading-relaxed text-[#a7acab]"></p>
+      </div>
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-2">
+
+        <!-- INSTAGRAM REELS -->
+        <article class="project-card">
+          <div class="thumb">
+            <img
+              data-template-id="project-1-image"
+              class="canva-image"
+              loading="lazy"
+              src="https://images.pexels.com/photos/13069979/pexels-photo-13069979.jpeg"
+              alt="Instagram Reels"
+            >
+            <span class="play-cue">
+              <i data-lucide="play" width="17" height="17" fill="currentColor"></i>
+            </span>
+          </div>
+
+          <div class="p-5">
+            <h3 data-template-id="project-1-title" class="canva-text text-xl font-bold text-[#f4f6ef]">
+              Instagram Reels
+            </h3>
+            <p data-template-id="project-1-description" class="canva-text mt-2 text-sm leading-relaxed text-[#adb4ae]">
+              Engaging short-form edits with creative storytelling, smooth transitions and dynamic pacing.
+            </p>
+
+            <div class="mt-5 flex flex-col gap-2">
+              <a href="https://youtube.com/shorts/V6c3vXmxc_A" target="_blank" rel="noopener noreferrer" class="watch-button">
+                ▶ Watch Reel 1
+              </a>
+              <a href="https://youtube.com/shorts/SlevHeicx54" target="_blank" rel="noopener noreferrer" class="watch-button">
+                ▶ Watch Reel 2
+              </a>
+              <a href="https://youtu.be/v_4aHWGSU40" target="_blank" rel="noopener noreferrer" class="watch-button">
+                ▶ Watch Reel 3
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PERSONAL EDITS -->
+        <article class="project-card">
+          <div class="thumb">
+            <img
+              data-template-id="project-2-image"
+              class="canva-image"
+              loading="lazy"
+              src="https://images.pexels.com/photos/2925322/pexels-photo-2925322.jpeg"
+              alt="Personal Video Edits"
+            >
+            <span class="play-cue">
+              <i data-lucide="play" width="17" height="17" fill="currentColor"></i>
+            </span>
+          </div>
+
+          <div class="p-5">
+            <h3 data-template-id="project-2-title" class="canva-text text-xl font-bold text-[#f4f6ef]">
+              Personal Edits
+            </h3>
+            <p data-template-id="project-2-description" class="canva-text mt-2 text-sm leading-relaxed text-[#adb4ae]">
+              Creative personal edits focused on visual rhythm, emotion and engaging storytelling.
+            </p>
+
+            <div class="mt-5 flex flex-col gap-2">
+              <a href="https://youtu.be/cdD2q_iY6b8" target="_blank" rel="noopener noreferrer" class="watch-button">
+                ▶ Watch Video 1
+              </a>
+              <a href="https://youtube.com/shorts/bw9FfPX1ehg" target="_blank" rel="noopener noreferrer" class="watch-button">
+                ▶ Watch Video 2
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+     </div>
+    </section>
+    <section id="skills" class="section-rule scroll-mt-24 py-14 md:py-20">
+     <div class="site-width grid gap-12 lg:grid-cols-2">
+      <div>
+       <p data-template-id="skills-label" class="canva-text eyebrow mb-4" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">Expertise</p>
+       <h2 data-template-id="skills-title" class="canva-text display-face text-4xl text-[#f4f6ef]" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 24px;">Skills</h2>
+       <div class="mt-7 flex flex-wrap gap-2">
+        <span data-template-id="skill-1" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">Video Editing</span><span data-template-id="skill-4" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">Transitions</span><span data-template-id="skill-6" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">Subtitles</span><span data-template-id="skill-7" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">Storytelling</span>
+       </div>
+      </div>
+      <div>
+       <p data-template-id="software-label" class="canva-text eyebrow mb-4" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">Toolkit</p>
+       <h2 data-template-id="software-title" class="canva-text display-face text-4xl text-[#f4f6ef]" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 24px;">Software</h2>
+       <div class="mt-7 flex flex-wrap gap-2">
+        <span data-template-id="software-1" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">CapCut</span><span data-template-id="software-2" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">VN</span><span data-template-id="software-3" class="canva-tag tag" style="background: rgb(21, 24, 24); color: rgb(216, 220, 215); font-weight: 400; font-style: normal; font-size: 16px;">InShot</span>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="section-rule py-14 md:py-20">
+     <div class="site-width grid gap-9 md:grid-cols-[.45fr_.55fr]">
+      <div>
+       <p data-template-id="services-label" class="canva-text eyebrow mb-4" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.19rem;">What I edit</p>
+       <h2 data-template-id="services-title" class="canva-text display-face text-4xl text-[#f4f6ef]" style="color: rgb(244, 246, 239); font-weight: 700; font-style: normal; font-size: 24px;">Services</h2>
+      </div>
+      <div class="grid sm:grid-cols-2">
+       <p data-template-id="service-1" class="canva-text service" style="color: rgb(232, 235, 229); font-weight: 500; font-style: normal; font-size: 16px;">Reels</p>
+       <p data-template-id="service-2" class="canva-text service" style="color: rgb(232, 235, 229); font-weight: 500; font-style: normal; font-size: 16px;">YouTube Video Edi</p>
+       <p data-template-id="service-3" class="canva-text service" style="color: rgb(232, 235, 229); font-weight: 500; font-style: normal; font-size: 16px;">Promotional Videos</p>
+       <p data-template-id="service-4" class="canva-text service" style="color: rgb(232, 235, 229); font-weight: 500; font-style: normal; font-size: 16px;">Social Media</p>
+       <p data-template-id="service-5" class="canva-text service" style="color: rgb(232, 235, 229); font-weight: 500; font-style: normal; font-size: 16px;">Event Video Editing</p>
+      </div>
+     </div>
+    </section>
+    <section id="contact" class="scroll-mt-24 border-t border-white/10 bg-[#d9ff4a] py-14 text-[#111312] md:py-20">
+     <div class="site-width grid gap-10 lg:grid-cols-[1fr_.78fr] lg:items-end">
+      <div>
+       <p data-template-id="contact-label" class="canva-text mb-5 text-xs font-bold tracking-[.18em]" style="color: rgb(17, 19, 18); font-weight: 700; font-style: normal; font-size: 16px; letter-spacing: 0.18rem;">Start a project</p>
+       <h2 data-template-id="contact-lead" class="canva-text display-face max-w-3xl text-5xl leading-[.98] md:text-7xl" style="color: rgb(17, 19, 18); font-weight: 700; font-style: normal; font-size: 24px; line-height: 0.98;">Let's create something amazing together.</h2>
+      </div>
+      <aside class="border-t border-black/20 pt-6" aria-label="Contact details">
+       <div class="space-y-3 text-sm">
+        <p><span class="mr-3 font-bold">EMAIL</span><span data-template-id="contact-email" class="canva-text" style="color: rgb(17, 19, 18); font-weight: 500; font-style: normal; font-size: 16px;">korimythri@gmail.com</span></p>
+        <p><span class="mr-3 font-bold">INSTAGRAM</span><span data-template-id="contact-instagram" class="canva-text" style="color: rgb(17, 19, 18); font-weight: 500; font-style: normal; font-size: 16px;">[YOUR INSTAGRAM]</span></p>
+        <p><span class="mr-3 font-bold">PHONE</span><span data-template-id="contact-phone" class="canva-text" style="color: rgb(17, 19, 18); font-weight: 500; font-style: normal; font-size: 16px;">6360441294</span></p>
+       </div><a data-template-id="contact-button" class="canva-button focus-ring mt-7 inline-flex items-center gap-2 bg-[#111312] px-5 py-3 font-bold text-[#d9ff4a] no-underline transition hover:-translate-y-1" href="mailto:korimythri@gmail.com" style="background: rgb(17, 19, 18); color: rgb(217, 255, 74);"><span data-template-id="contact-button-label" class="canva-text" style="color: rgb(217, 255, 74); font-weight: 700; font-style: normal; font-size: 16px;">Contact Me</span><i data-lucide="mail" width="17" height="17"></i></a>
+      </aside>
+     </div>
+    </section>
+   </main>
+   <footer class="bg-[#080909] py-6">
+    <div class="site-width flex items-center justify-between gap-4 text-xs text-[#858d86]">
+     <span data-template-id="footer-name" class="canva-text" style="color: rgb(133, 141, 134); font-weight: 700; font-style: normal; font-size: 16px;">Mythri K</span> <span data-template-id="footer-note" class="canva-text" style="color: rgb(133, 141, 134); font-weight: 400; font-style: normal; font-size: 16px;">Video Editor Portfolio</span>
+    </div>
+   </footer>
+  </div>
+  <div id="notice" role="status" aria-live="polite">
+   Add a direct video URL to this field, then try again.
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      lucide.createIcons();
+
+      const menuButton = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      menuButton.addEventListener("click", function () {
+        const open = mobileMenu.classList.toggle("is-open");
+        menuButton.setAttribute("aria-expanded", String(open));
+        menuButton.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+      });
+
+      mobileMenu.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          mobileMenu.classList.remove("is-open");
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Open navigation menu");
+        });
+      });
+
+      const notice = document.getElementById("notice");
+      let noticeTimer;
+      function showNotice(message) {
+        notice.textContent = message;
+        notice.classList.add("show");
+        clearTimeout(noticeTimer);
+        noticeTimer = setTimeout(function () { notice.classList.remove("show"); }, 3200);
+      }
+
+      document.querySelectorAll("[data-url-input]").forEach(function (button) {
+        button.addEventListener("click", function () {
+          const field = document.getElementById(button.dataset.urlInput);
+          const url = field.value.trim();
+          if (!url) {
+            showNotice("Add a direct video URL to this field, then try again.");
+            field.focus();
+            return;
+          }
+          try {
+            const parsed = new URL(url);
+            if (parsed.protocol !== "https:" && parsed.protocol !== "http:") throw new Error("Invalid URL");
+            window.open(parsed.href, "_blank", "noopener,noreferrer");
+          } catch (error) {
+            showNotice("Please enter a valid direct video URL starting with https://.");
+            field.focus();
+          }
+        });
+      });
+    });
+  </script>
+ 
+</body></html>
